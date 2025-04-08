@@ -87,7 +87,6 @@ if __name__ == '__main__':
     prefix_gcan = "snowflake-stage/autosto/gcan-csv"
     table = "GSCCE.SANDBOX.AUTO_STO"
     stage = "GSCCE.SANDBOX.AUTO_STO_STAGE"
-
     gus_key = latest_file_key(s3_client, bucket_name, prefix_gus)
     gcan_key = latest_file_key(s3_client, bucket_name, prefix_gcan)
     conn.close()
