@@ -1,0 +1,8 @@
+venv/
+.gitignore
+test.csv
+auto_sto.ipynb
+Dockerfile
+.dockerignore
+.git/
+__pycache__/
